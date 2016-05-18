@@ -1,1 +1,11 @@
 /* Empty. Add your own CSS if you like */
+.home-screen{
+  background:url('../img/background.png') no-repeat center fixed;
+  width:100%;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+}
