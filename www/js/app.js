@@ -121,6 +121,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             }
           }
         })
+        .state('app.freedownloads', {
+          url: '/freedownloads',
+          views: {
+            'menuContent': {
+              templateUrl: 'templates/freedownloads.html'
+            }
+          }
+        })
         .state('app.newsletter', {
           url: '/newsletter',
           views: {
